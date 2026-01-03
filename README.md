@@ -4,18 +4,7 @@
 This project is part of a Machine Learning Internship.
 
 The objective of this project is to build a Machine Learning model
-that can classify SMS messages as Spam or Not Spam (Ham).
-
----
-
-## 📂 Project Structure
-
-MachineLearning-Internship-Project/
-├── data/
-│   └── spam.csv
-├── spam_classifier.py
-├── requirements.txt
-└── README.md
+that can classify SMS messages as Spam or Not Spam (Ham)
 
 ---
 
