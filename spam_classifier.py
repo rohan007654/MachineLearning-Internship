@@ -12,3 +12,15 @@ data['label'] = data['label'].map({'ham': 0, 'spam': 1})
 
 print(data.head())
 print("Rows and columns:", data.shape)
+
+#Day 3
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+# Convert text messages into numerical form
+vectorizer = TfidfVectorizer(stop_words='english')
+
+X = vectorizer.fit_transform(data['message'])
+y = data['label']
+
+print("Text converted into numbers")
+print("X shape:", X.shape)
