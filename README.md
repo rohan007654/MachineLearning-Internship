@@ -33,7 +33,7 @@ that can classify SMS messages as Spam or Not Spam (Ham)
 - Day 1: Project setup and dataset added ✅
 - Day 2: Data loading and label preprocessing ✅
 - Day 3: Text vectorization ✅
-- Day 4: Model training ⏳
+- Day 4: Model training ✅
 - Day 5: Evaluation and prediction ⏳
 ---
 
