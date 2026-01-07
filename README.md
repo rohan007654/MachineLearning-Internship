@@ -8,6 +8,10 @@ that can classify SMS messages as Spam or Not Spam (Ham)
 
 ---
 
+## Project Link
+https://github.com/rohan007654/MachineLearning-Internship.git
+
+---
 ## 📊 Dataset
 
 - Dataset Name: SMS Spam Collection Dataset
