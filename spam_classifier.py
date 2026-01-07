@@ -39,3 +39,27 @@ model = MultinomialNB()
 model.fit(X_train, y_train)
 
 print("Model training completed")
+
+#Day 5
+from sklearn.metrics import accuracy_score, confusion_matrix
+
+# Predict on test data
+y_pred = model.predict(X_test)
+
+# Accuracy
+accuracy = accuracy_score(y_test, y_pred)
+print("Model Accuracy:", accuracy)
+
+# Confusion Matrix
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+# Test with your own message
+sample_message = ["Congratulations! You have won a free prize"]
+sample_vector = vectorizer.transform(sample_message)
+prediction = model.predict(sample_vector)
+
+if prediction[0] == 1:
+    print("Prediction: SPAM")
+else:
+    print("Prediction: NOT SPAM")
